@@ -1,0 +1,18 @@
+[aleksi@dsktp script-answers]$ sudo docker run -it ubuntu bash
+[sudo] password for aleksi: 
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+e0b25ef51634: Pull complete 
+Digest: sha256:9101220a875cee98b016668342c489ff0674f247f6ca20dfc91b91c0f28581ae
+Status: Downloaded newer image for ubuntu:latest
+root@454405ccc229:/# ls
+bin   dev  home  lib32  libx32  mnt  proc  run   srv  tmp  var
+boot  etc  lib   lib64  media   opt  root  sbin  sys  usr
+root@454405ccc229:/# mkdir /usr/src/app
+root@454405ccc229:/# cd usr/src/app/
+root@454405ccc229:/usr/src/app# touch index.js
+root@454405ccc229:/usr/src/app# ls
+index.js
+root@454405ccc229:/usr/src/app# exit
+exit
+
